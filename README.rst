@@ -18,18 +18,21 @@ Installation
 Get the code
 ~~~~~~~~~~~~
 
-..code::bash:
+.. code:: bash:
+
     git clone https://github.com/yarbelk/django_templates.git
 
 
 Create a virtual env for the new project.
 
 .. code:: bash
+
     mkvirtualenv {{project_name}}-env
     cd $VIRTUAL_ENV
 
 create the projects
 .. code:: bash
+
     django-admin.py startproject --template=/path/to/project/template/ <project_name>
     mkdir {db,tmp}
     mkdir tmp/email
