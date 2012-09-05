@@ -24,12 +24,12 @@ Get the code
 
 Create a virtual env for the new project.
 
-..code::bash:
+.. code:: bash
     mkvirtualenv {{project_name}}-env
     cd $VIRTUAL_ENV
 
 create the projects
-..code::bash:
+.. code:: bash
     django-admin.py startproject --template=/path/to/project/template/ <project_name>
     mkdir {db,tmp}
     mkdir tmp/email
