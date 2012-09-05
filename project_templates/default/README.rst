@@ -1,5 +1,6 @@
-{{ project_name|title }} Django Project
-=======================================
+==============================================================================
+ {{ project_name|title }} Django Project
+==============================================================================
 
 Requirements
 ------------
@@ -28,6 +29,7 @@ get the code
     git clone <GIT_URL> {{ project_name }}
 
 Install the Requirements
+
 .. code:: bash
 
     cd {{ project_name }}
