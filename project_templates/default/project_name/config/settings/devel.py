@@ -6,7 +6,7 @@ COMPRESS_ENABLED = True
 
 MEDIA_URL = "http://127.0.0.1:8000/media/"
 
-LOGGING['loggers']['django.apps']['level'] = 'INFO'
+#LOGGING['loggers']['django.apps']['level'] = 'INFO'
 
 FIXTURE_DIRS = (
         # Testing fixtures here
