@@ -31,6 +31,7 @@ Create a virtual env for the new project.
     cd $VIRTUAL_ENV
 
 create the projects
+
 .. code:: bash
 
     django-admin.py startproject --template=/path/to/project/template/ <project_name>
