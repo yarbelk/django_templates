@@ -2,7 +2,7 @@
 
 from path import path
 
-PROJECT_ROOT = path(__file__).abspath().dirname()
+PROJECT_ROOT = path(__file__).abspath().dirname().dirname().dirname()
 SITE_ROOT = PROJECT_ROOT.dirname().dirname()
 
 ADMINS = (
