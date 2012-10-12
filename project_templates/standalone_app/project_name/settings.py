@@ -5,4 +5,4 @@
 # be either the default or what was placed in the DJANGO_SETTINGS_MODULE.
 
 #from django.conf import settings
-#SETTINGS_NAME = settings.get('SETTINGS_NAME',<default_value>)
+#SETTINGS_NAME = getattr(settings,'SETTINGS_NAME',<default_value>)
