@@ -40,7 +40,7 @@ Project default
 
 .. code:: bash
 
-    django-admin.py startproject --template=/path/to/default/template/ <project_name>
+    django-admin.py startproject --template=/path/to/default/template/ <project_name> -e py,rst
     mkdir {db,tmp}
     mkdir tmp/email
     cd project_name
@@ -53,7 +53,7 @@ App Standalone_app
 
 .. code:: bash
 
-    django-admin.py startproject --template=/path/to/standanle_app/template/ <project_name>
+    django-admin.py startproject --template=/path/to/standanle_app/template/ <project_name> -e py,rst
     cd project_name
     pip install -r requirements.txt
 
