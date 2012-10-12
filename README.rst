@@ -23,6 +23,9 @@ Get the code
     git clone https://github.com/yarbelk/django_templates.git
 
 
+Using the Code
+--------------
+
 Create a virtual env for the new project.
 
 .. code:: bash
@@ -32,8 +35,26 @@ Create a virtual env for the new project.
 
 create the projects
 
+Project default
+~~~~~~~~~~~~~~~~
+
 .. code:: bash
 
-    django-admin.py startproject --template=/path/to/project/template/ <project_name>
+    django-admin.py startproject --template=/path/to/default/template/ <project_name>
     mkdir {db,tmp}
     mkdir tmp/email
+    cd project_name
+    pip install -r requirements.txt
+
+then edit the README.rst
+
+App Standalone_app
+~~~~~~~~~~~~~~~~~~
+
+.. code:: bash
+
+    django-admin.py startproject --template=/path/to/standanle_app/template/ <project_name>
+    cd project_name
+    pip install -r requirements.txt
+
+Don't forget to edit the `setup.py` file and README.rst
